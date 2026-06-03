@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="504" viewBox="0 0 620 504">
+<style>
+text { font-family: Arial, sans-serif; }
+.title { font-size: 24px; font-weight: 700; fill: #0f172a; }
+.subtitle { font-size: 13px; fill: #475569; }
+.header { font-size: 13px; font-weight: 700; fill: #334155; }
+.cell { font-size: 14px; fill: #0f172a; }
+.summary { font-size: 14px; font-weight: 700; fill: #0f172a; }
+</style>
+<rect x="0" y="0" width="620" height="504" fill="#ffffff"/>
+<text x="310.0" y="32" text-anchor="middle" class="title">Метрики качества классификации</text>
+<text x="310.0" y="54" text-anchor="middle" class="subtitle">accuracy = 0.8483 (84.83%)</text>
+<rect x="28" y="82" width="564" height="56" rx="8" fill="#e2e8f0"/>
+<text x="44.0" y="117" text-anchor="start" class="header">Gesture</text>
+<text x="216.0" y="117" text-anchor="middle" class="header">Precision</text>
+<text x="328.0" y="117" text-anchor="middle" class="header">Recall</text>
+<text x="440.0" y="117" text-anchor="middle" class="header">F1-score</text>
+<text x="544.0" y="117" text-anchor="middle" class="header">Support</text>
+<rect x="28" y="138" width="564" height="48" fill="#f8fafc"/>
+<text x="44.0" y="168" text-anchor="start" class="cell">relax</text>
+<text x="216.0" y="168" text-anchor="middle" class="cell">0.92</text>
+<text x="328.0" y="168" text-anchor="middle" class="cell">0.80</text>
+<text x="440.0" y="168" text-anchor="middle" class="cell">0.86</text>
+<text x="544.0" y="168" text-anchor="middle" class="cell">145</text>
+<rect x="28" y="186" width="564" height="48" fill="#ffffff"/>
+<text x="44.0" y="216" text-anchor="start" class="cell">fist</text>
+<text x="216.0" y="216" text-anchor="middle" class="cell">0.88</text>
+<text x="328.0" y="216" text-anchor="middle" class="cell">0.81</text>
+<text x="440.0" y="216" text-anchor="middle" class="cell">0.85</text>
+<text x="544.0" y="216" text-anchor="middle" class="cell">145</text>
+<rect x="28" y="234" width="564" height="48" fill="#f8fafc"/>
+<text x="44.0" y="264" text-anchor="start" class="cell">open</text>
+<text x="216.0" y="264" text-anchor="middle" class="cell">0.88</text>
+<text x="328.0" y="264" text-anchor="middle" class="cell">0.97</text>
+<text x="440.0" y="264" text-anchor="middle" class="cell">0.92</text>
+<text x="544.0" y="264" text-anchor="middle" class="cell">145</text>
+<rect x="28" y="282" width="564" height="48" fill="#ffffff"/>
+<text x="44.0" y="312" text-anchor="start" class="cell">left</text>
+<text x="216.0" y="312" text-anchor="middle" class="cell">0.80</text>
+<text x="328.0" y="312" text-anchor="middle" class="cell">0.85</text>
+<text x="440.0" y="312" text-anchor="middle" class="cell">0.83</text>
+<text x="544.0" y="312" text-anchor="middle" class="cell">145</text>
+<rect x="28" y="330" width="564" height="48" fill="#f8fafc"/>
+<text x="44.0" y="360" text-anchor="start" class="cell">right</text>
+<text x="216.0" y="360" text-anchor="middle" class="cell">0.77</text>
+<text x="328.0" y="360" text-anchor="middle" class="cell">0.81</text>
+<text x="440.0" y="360" text-anchor="middle" class="cell">0.79</text>
+<text x="544.0" y="360" text-anchor="middle" class="cell">145</text>
+<rect x="28" y="378" width="564" height="48" fill="#eef2ff"/>
+<text x="44.0" y="408" text-anchor="start" class="summary">macro avg</text>
+<text x="216.0" y="408" text-anchor="middle" class="summary">0.85</text>
+<text x="328.0" y="408" text-anchor="middle" class="summary">0.85</text>
+<text x="440.0" y="408" text-anchor="middle" class="summary">0.85</text>
+<text x="544.0" y="408" text-anchor="middle" class="summary">725</text>
+<rect x="28" y="426" width="564" height="48" fill="#eef2ff"/>
+<text x="44.0" y="456" text-anchor="start" class="summary">weighted avg</text>
+<text x="216.0" y="456" text-anchor="middle" class="summary">0.85</text>
+<text x="328.0" y="456" text-anchor="middle" class="summary">0.85</text>
+<text x="440.0" y="456" text-anchor="middle" class="summary">0.85</text>
+<text x="544.0" y="456" text-anchor="middle" class="summary">725</text>
+<rect x="28" y="82" width="564" height="392" rx="8" fill="none" stroke="#cbd5e1" stroke-width="1"/>
+</svg>

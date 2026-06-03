@@ -87,8 +87,6 @@ def predict_gesture(
 
 def send_command(port: serial.Serial, command: str) -> None:
     port.write(command.encode("ascii"))
-    if command == EMERGENCY_COMMAND:
-        port.write(b"D")
     port.flush()
 
 
@@ -123,7 +121,7 @@ def main() -> None:
                         and now - last_no_sample_stop_at >= args.no_sample_stop_seconds
                     ):
                         send_command(ser, "D")
-                        last_command = EMERGENCY_COMMAND
+                        last_command = "D"
                         last_command_sent_at = now
                         last_no_sample_stop_at = now
                         print("No EMG samples. Emergency stop/disarm sent.")
@@ -154,15 +152,17 @@ def main() -> None:
 
                 if gesture is None:
                     stable_history.clear()
-                    if (
+                    should_send = (
                         last_command != EMERGENCY_COMMAND
                         or now - last_command_sent_at >= args.command_repeat_seconds
-                    ):
+                    )
+                    if should_send:
                         send_command(ser, EMERGENCY_COMMAND)
                         last_command = EMERGENCY_COMMAND
                         last_command_sent_at = now
                     confidence_text = "n/a" if confidence is None else f"{confidence:.2f}"
-                    print(f"gesture=unknown confidence={confidence_text} command=S")
+                    status = "command=S" if should_send else "command=S held"
+                    print(f"gesture=unknown confidence={confidence_text} {status}")
                     continue
 
                 stable_history.append(gesture)

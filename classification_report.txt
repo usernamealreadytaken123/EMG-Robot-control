@@ -1,0 +1,23 @@
+Accuracy: 0.8483 (84.83%)
+
+Classification report:
+              precision    recall  f1-score   support
+
+       relax       0.92      0.80      0.86       145
+        fist       0.88      0.81      0.85       145
+        open       0.88      0.97      0.92       145
+        left       0.80      0.85      0.83       145
+       right       0.77      0.81      0.79       145
+
+    accuracy                           0.85       725
+   macro avg       0.85      0.85      0.85       725
+weighted avg       0.85      0.85      0.85       725
+
+Confusion matrix:
+                relax  fist  open  left  right
+true/predicted                                
+relax             116     2    13     7      7
+fist                0   118     0     9     18
+open                2     0   141     1      1
+left                0     7     6   123      9
+right               8     7     0    13    117

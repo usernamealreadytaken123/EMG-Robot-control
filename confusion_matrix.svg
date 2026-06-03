@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="626" height="652" viewBox="0 0 626 652">
+<style>
+text { font-family: Arial, sans-serif; }
+.title { font-size: 24px; font-weight: 700; fill: #0f172a; }
+.subtitle { font-size: 13px; fill: #475569; }
+.axis { font-size: 14px; font-weight: 700; fill: #334155; }
+.label { font-size: 13px; fill: #0f172a; }
+.value { font-size: 24px; font-weight: 700; }
+.cell { stroke: #ffffff; stroke-width: 2; }
+</style>
+<rect x="0" y="0" width="626" height="652" fill="#ffffff"/>
+<text x="313.0" y="32" text-anchor="middle" class="title">Матрица ошибок</text>
+<text x="313.0" y="54" text-anchor="middle" class="subtitle">accuracy = 0.8483 (84.83%)</text>
+<text x="362.0" y="86" text-anchor="middle" class="axis">Predicted gesture</text>
+<text x="24" y="346.0" text-anchor="middle" class="axis" transform="rotate(-90 24 346.0)">True gesture</text>
+<text x="178.0" y="98" text-anchor="middle" class="label">relax</text>
+<text x="270.0" y="98" text-anchor="middle" class="label">fist</text>
+<text x="362.0" y="98" text-anchor="middle" class="label">open</text>
+<text x="454.0" y="98" text-anchor="middle" class="label">left</text>
+<text x="546.0" y="98" text-anchor="middle" class="label">right</text>
+<text x="116" y="167.0" text-anchor="end" class="label">relax</text>
+<text x="116" y="259.0" text-anchor="end" class="label">fist</text>
+<text x="116" y="351.0" text-anchor="end" class="label">open</text>
+<text x="116" y="443.0" text-anchor="end" class="label">left</text>
+<text x="116" y="535.0" text-anchor="end" class="label">right</text>
+<rect x="132" y="116" width="92" height="92" rx="8" fill="#5989de" class="cell"/>
+<text x="178.0" y="170.0" text-anchor="middle" class="value" fill="#ffffff">116</text>
+<rect x="224" y="116" width="92" height="92" rx="8" fill="#ecf4fe" class="cell"/>
+<text x="270.0" y="170.0" text-anchor="middle" class="value" fill="#0f172a">2</text>
+<rect x="316" y="116" width="92" height="92" rx="8" fill="#deeafb" class="cell"/>
+<text x="362.0" y="170.0" text-anchor="middle" class="value" fill="#0f172a">13</text>
+<rect x="408" y="116" width="92" height="92" rx="8" fill="#e6effd" class="cell"/>
+<text x="454.0" y="170.0" text-anchor="middle" class="value" fill="#0f172a">7</text>
+<rect x="500" y="116" width="92" height="92" rx="8" fill="#e6effd" class="cell"/>
+<text x="546.0" y="170.0" text-anchor="middle" class="value" fill="#0f172a">7</text>
+<rect x="132" y="208" width="92" height="92" rx="8" fill="#eff6ff" class="cell"/>
+<text x="178.0" y="262.0" text-anchor="middle" class="value" fill="#0f172a">0</text>
+<rect x="224" y="208" width="92" height="92" rx="8" fill="#5788de" class="cell"/>
+<text x="270.0" y="262.0" text-anchor="middle" class="value" fill="#ffffff">118</text>
+<rect x="316" y="208" width="92" height="92" rx="8" fill="#eff6ff" class="cell"/>
+<text x="362.0" y="262.0" text-anchor="middle" class="value" fill="#0f172a">0</text>
+<rect x="408" y="208" width="92" height="92" rx="8" fill="#e3eefc" class="cell"/>
+<text x="454.0" y="262.0" text-anchor="middle" class="value" fill="#0f172a">9</text>
+<rect x="500" y="208" width="92" height="92" rx="8" fill="#d8e5fa" class="cell"/>
+<text x="546.0" y="262.0" text-anchor="middle" class="value" fill="#0f172a">18</text>
+<rect x="132" y="300" width="92" height="92" rx="8" fill="#ecf4fe" class="cell"/>
+<text x="178.0" y="354.0" text-anchor="middle" class="value" fill="#0f172a">2</text>
+<rect x="224" y="300" width="92" height="92" rx="8" fill="#eff6ff" class="cell"/>
+<text x="270.0" y="354.0" text-anchor="middle" class="value" fill="#0f172a">0</text>
+<rect x="316" y="300" width="92" height="92" rx="8" fill="#3972d7" class="cell"/>
+<text x="362.0" y="354.0" text-anchor="middle" class="value" fill="#ffffff">141</text>
+<rect x="408" y="300" width="92" height="92" rx="8" fill="#eef5ff" class="cell"/>
+<text x="454.0" y="354.0" text-anchor="middle" class="value" fill="#0f172a">1</text>
+<rect x="500" y="300" width="92" height="92" rx="8" fill="#eef5ff" class="cell"/>
+<text x="546.0" y="354.0" text-anchor="middle" class="value" fill="#0f172a">1</text>
+<rect x="132" y="392" width="92" height="92" rx="8" fill="#eff6ff" class="cell"/>
+<text x="178.0" y="446.0" text-anchor="middle" class="value" fill="#0f172a">0</text>
+<rect x="224" y="392" width="92" height="92" rx="8" fill="#e6effd" class="cell"/>
+<text x="270.0" y="446.0" text-anchor="middle" class="value" fill="#0f172a">7</text>
+<rect x="316" y="392" width="92" height="92" rx="8" fill="#e7f0fd" class="cell"/>
+<text x="362.0" y="446.0" text-anchor="middle" class="value" fill="#0f172a">6</text>
+<rect x="408" y="392" width="92" height="92" rx="8" fill="#5083dc" class="cell"/>
+<text x="454.0" y="446.0" text-anchor="middle" class="value" fill="#ffffff">123</text>
+<rect x="500" y="392" width="92" height="92" rx="8" fill="#e3eefc" class="cell"/>
+<text x="546.0" y="446.0" text-anchor="middle" class="value" fill="#0f172a">9</text>
+<rect x="132" y="484" width="92" height="92" rx="8" fill="#e5effd" class="cell"/>
+<text x="178.0" y="538.0" text-anchor="middle" class="value" fill="#0f172a">8</text>
+<rect x="224" y="484" width="92" height="92" rx="8" fill="#e6effd" class="cell"/>
+<text x="270.0" y="538.0" text-anchor="middle" class="value" fill="#0f172a">7</text>
+<rect x="316" y="484" width="92" height="92" rx="8" fill="#eff6ff" class="cell"/>
+<text x="362.0" y="538.0" text-anchor="middle" class="value" fill="#0f172a">0</text>
+<rect x="408" y="484" width="92" height="92" rx="8" fill="#deeafb" class="cell"/>
+<text x="454.0" y="538.0" text-anchor="middle" class="value" fill="#0f172a">13</text>
+<rect x="500" y="484" width="92" height="92" rx="8" fill="#5888de" class="cell"/>
+<text x="546.0" y="538.0" text-anchor="middle" class="value" fill="#ffffff">117</text>
+</svg>
